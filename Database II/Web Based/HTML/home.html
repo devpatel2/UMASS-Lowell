@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<body>
+ 
+ <h1>Instructor Tools</h1>
+
+ <form action="search.php" method="post">
+  <fieldset>
+   <legend>Search</legend>
+   <h3>All</h3>
+   <p>Group (double click textbox for options):
+   <input list="database" name="group">
+   <datalist id="database">
+    <option value="Students">
+    <option value="Instructors">
+    <option value="Courses">
+   </datalist></p>
+   
+   <h3>Student</h3>
+   <p>SID: <input text="sSID" name="sSID"> or Name: <input text="sName" name="sName"></p>
+
+   <h3>Course</h3>
+   <p>CID: <input text="sCID" name="sCID">
+   Section (enter "yes" if want sections of a course): <input text="sSec" name="sSec"></p>
+   
+   <h3>Instructor</h3>
+   <p>IID: <input text="sIID" name="sIID"> or Name: <input text="sI_Name" name="sI_Name"></p>
+   <input type="submit" value="Search">
+  </fieldset>
+ </form>
+ 
+ <br>
+ 
+ <form action="addStudent.php" method="post">
+  <fieldset>
+   <legend>Add</legend>
+   <input type=button onclick="location.href='addStudent.html'" value="Add Student">
+   <input type=button onclick="location.href='addCourse.html'" value="Add Course">
+   <input type=button onclick="location.href='gradeStudent.html'" value="Enter Grade for Student">
+  </fieldset>
+ </form>
+ 
+ <br>
+ 
+ <fieldset>
+  <legend>Update</legend>
+  <input type=button onclick="location.href='updateStudent.html'" value="Update Student">
+ </fieldset>
+ 
+  <br>
+ 
+ <fieldset>
+  <legend>Delete</legend>
+  <input type=button onclick="location.href='deleteCourse.html'" value="Delete Course">
+  <input type=button onclick="location.href='deleteSection.html'" value="Delete Section">
+ </fieldset>
+ 
+ <br>
+ 
+ <form action="graduate.php" method="post">
+  <fieldset>
+   <legend>Graduate</legend>
+   <p>Student ID: <input text="gsid" name="gsid"></p>
+   <input type="submit" value="Graduate?">
+   <input type=button onclick="location.href='graduateList.php'" value="Check All Students">
+  </fieldset>
+ </form>
+
+</body>
+</html> 
