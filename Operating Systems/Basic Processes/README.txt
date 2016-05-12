@@ -13,7 +13,8 @@ If your parent program does not receive an argument on the command-line, it must
 
 Your child program must:
     Display a process information report.
-    Setup a signal handler with sigaction for the SIGTERM signal that replaces the child program with an instance of the parent program, without a command-line argument using execl.
+    Setup a signal handler with sigaction for the SIGTERM signal that replaces the child 
+        program with an instance of the parent program, without a command-line argument using execl.
     Write a message to the inherited pipe, to synchronize with its parent.
     Enter an endless loop that never returns.
 
