@@ -1,0 +1,35 @@
+PARENT: About to perform step # 1
+PARENT: Process ID is:            1755
+PARENT: Process parent ID is:     1335
+PARENT: Real UID is:              1000
+PARENT: Real GID is:              1000
+PARENT: Effective UID is:         1000
+PARENT: Effective GID is:         1000
+PARENT: Process priority is:      -1
+PARENT: About to perform step # 2
+PARENT: About to perform step # 3
+PARENT: About to perform step # 4
+CHILD: About to perform step # 1
+CHILD: Process ID is:            1756
+CHILD: Process parent ID is:     1755
+CHILD: Real UID is:              1000
+CHILD: Real GID is:              1000
+CHILD: Effective UID is:         1000
+CHILD: Effective GID is:         1000
+CHILD: Process priority is:      -1
+CHILD: About to perform step # 2
+CHILD: About to perform step # 3
+CHILD: Writing To Pipe
+PARENT: Reading From Pipe: Read from child
+PARENT: About to perform step # 5
+PARENT: About to perform step # 6
+PARENT2: About to perform step # 1
+PARENT2: Process ID is:            1756
+PARENT2: Process parent ID is:     1755
+PARENT2: Real UID is:              1000
+PARENT2: Real GID is:              1000
+PARENT2: Effective UID is:         1000
+PARENT2: Effective GID is:         1000
+PARENT2: Process priority is:      -1
+PARENT: CHILD exited with status 0
+PARENT: About to perform step # 7
