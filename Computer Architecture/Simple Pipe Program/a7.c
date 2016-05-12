@@ -53,11 +53,13 @@ if (child == 0) {                                                               
  
  printf("\nCHILD: About to perform step # 4\n");
  printf("CHILD: Exit With Success\n");
- } else {                                                                                                     // parent process
+ } else {                                                                                            // parent process
  close(pipes[0]);
  printf("\nPARENT: About to perform step # 4\n");
  printf("PARENT: Writing To Pipe\n");
  write(pipes[1], string, (sizeof(string) + 1));
+ 
+ wait(&status);
 
  printf("\nPARENT: About to perform step # 5\n");
  printf("PARENT: Exit With Success\n");

@@ -1,6 +1,6 @@
 PARENT: About to perform step # 1
-PARENT: Process ID is:            1414
-PARENT: Process parent ID is:     1302
+PARENT: Process ID is:            1399
+PARENT: Process parent ID is:     1335
 PARENT: Real UID is:              1000
 PARENT: Real GID is:              1000
 PARENT: Effective UID is:         1000
@@ -16,26 +16,9 @@ PARENT: Creating Child
 PARENT: About to perform step # 4
 PARENT: Writing To Pipe
 
-PARENT: About to perform step # 5
-PARENT: Exit With Success
-PARENT: About to perform step # 1
-PARENT: Process ID is:            1414
-PARENT: Process parent ID is:     1302
-PARENT: Real UID is:              1000
-PARENT: Real GID is:              1000
-PARENT: Effective UID is:         1000
-PARENT: Effective GID is:         1000
-PARENT: Process priority is:      -1
-
-PARENT: About to perform step # 2
-PARENT: Pipe Created
-
-PARENT: About to perform step # 3
-PARENT: Creating Child
-
 CHILD: About to perform step # 1
-CHILD: Process ID is:            1415
-CHILD: Process parent ID is:     1058
+CHILD: Process ID is:            1400
+CHILD: Process parent ID is:     1399
 CHILD: Real UID is:              1000
 CHILD: Real GID is:              1000
 CHILD: Effective UID is:         1000
@@ -46,7 +29,10 @@ CHILD: About to perform step # 2
 CHILD: Reading From Pipe: Read from parent
 
 CHILD: About to perform step # 3
-CHILD: Parent Process ID is 1058
+CHILD: Parent Process ID is 1399
 
 CHILD: About to perform step # 4
 CHILD: Exit With Success
+
+PARENT: About to perform step # 5
+PARENT: Exit With Success
