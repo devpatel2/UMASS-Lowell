@@ -1,3 +1,4 @@
+*Course Project
 *insert-data.sql is provided.
 
 Tables:
