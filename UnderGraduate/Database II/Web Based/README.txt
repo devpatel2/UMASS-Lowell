@@ -12,3 +12,5 @@ Database holds the following tables and elements:
   - prerequisite (PCID, CID)
   - conditions (SID, CID)
   - enrollment (SID, CID, SecID, yearID, semesterID, grade)
+
+*When running place all files in 1 folder
