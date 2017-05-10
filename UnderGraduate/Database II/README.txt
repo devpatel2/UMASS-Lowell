@@ -1,0 +1,1 @@
+The project includes a web-based and android application portion. Web-based portion has more options, while the android application is limited to checking whether a student is eligible for graduation.
