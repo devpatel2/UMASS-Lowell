@@ -7,7 +7,8 @@ teaches (ID, course_id, sec_id, semester, year)
 student (ID, name, dept_name, tot_cred)
 takes (ID, course_id, sec_id, semester, year, grade)
 
-(NOTE: The ID attribute in teaches table is corresponding to the ID in instructor, and ID attribute in takes table is corresponding to the ID in student.)
+(NOTE: The ID attribute in teaches table is corresponding to the ID in instructor, 
+and ID attribute in takes table is corresponding to the ID in student.)
 
 Using Oracle 12c develop the queries in SQL and execute them:
 1) Find the student's name whose ID = "113".
