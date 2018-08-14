@@ -1,0 +1,1 @@
+Contains side mini projects not for university
